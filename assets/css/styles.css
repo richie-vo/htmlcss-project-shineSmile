@@ -67,6 +67,7 @@ a {
 }
 
 .section-desc {
+    margin-top: 18px;
     color: #575f66;
     font-size: 1.6rem;
     font-weight: 300;
@@ -275,7 +276,8 @@ a {
     display: block;
     text-align: center;
     width: 40%;
-    margin: 18px auto 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .services__content {
@@ -298,6 +300,7 @@ a {
     background: #fff;
     width: 470px;
     padding: 21px 61px 20px 22px;
+    transition: 0.25s;
 }
 
 .services-item:hover {
@@ -313,6 +316,7 @@ a {
     --diameter-: 60px;
     background: #eff6fd;
     flex-shrink: 0;
+    transition: 0.25s;
 }
 
 .services-item:hover .services-item__icon {
@@ -329,4 +333,55 @@ a {
 
 .services__btn {
     margin-top: 55px;
+}
+/* =============== WORKS =============== */
+.works {
+    margin-top: 170px;
+    padding: 100px 0;
+    background: #f6fbff;
+}
+
+.works__desc {
+    width: 468px;
+}
+
+.works__list {
+    margin-top: 86px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+}
+
+.works-item {
+    width: 370px;
+    padding: 42px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 16px solid #eaf6ff;
+    transition: 0.25s;
+}
+
+.works-item:hover {
+    border-color: #2e80ce;
+    transform: translateY(-16px);
+}
+
+.works-item__heading {
+    margin-top: 18px;
+    color: #10375c;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 138.462%;
+}
+
+.works-item__desc {
+    margin-top: 28px;
+}
+
+.works-item__more {
+    margin-top: 18px;
+    color: #2e80ce;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 175%;
 }
