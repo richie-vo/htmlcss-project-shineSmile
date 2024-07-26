@@ -69,7 +69,7 @@ a {
 .section-desc {
     margin-top: 18px;
     color: #575f66;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 300;
     line-height: 166.667%;
 }
@@ -265,7 +265,8 @@ a {
 }
 /* =============== SERVICES =============== */
 .services {
-    margin-top: 130px;
+    margin: 85px 0;
+    padding: 85px 0;
 }
 
 .services__heading {
@@ -336,7 +337,6 @@ a {
 }
 /* =============== WORKS =============== */
 .works {
-    margin-top: 170px;
     padding: 100px 0;
     background: #f6fbff;
 }
@@ -384,4 +384,41 @@ a {
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 175%;
+}
+/* =============== FEATURES =============== */
+.features {
+    margin: 85px 0;
+    padding: 85px 0;
+}
+
+.features__content {
+    display: flex;
+    align-items: center;
+    column-gap: 130px;
+}
+
+.features__media {
+    position: relative;
+    width: 49%;
+    padding: 0 58px 121px 0;
+}
+
+.features__img {
+    width: 512px;
+    height: 370px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.07);
+    object-fit: cover;
+}
+
+.features__img:last-child {
+    position: absolute;
+    width: 332px;
+    bottom: 0;
+    right: 0;
+}
+
+.features__btn {
+    margin-top: 38px;
 }
